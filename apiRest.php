@@ -15,7 +15,7 @@
     //listar registro y consultar registro
     if ($_SERVER["REQUEST_METHOD"] == "GET"){
 
-        $sql = "SELECT * FROM usuario";
+        $sql = "SELECT * FROM tb_usuario";
         $params = [];
     
         if (isset($_GET["id"])) {
